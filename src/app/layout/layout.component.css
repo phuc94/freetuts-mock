@@ -1,0 +1,22 @@
+@media all and (min-width: 769px) {
+    div.body-column{
+        width: 75%; margin: 0 auto; display: flex; flex-direction: row
+    }
+    div.router-column{
+        width: 70%; margin-right: 20px
+    }
+    div.sidebar-column{
+        width: 30%
+    }
+  }
+@media all and (max-width: 768px) {
+    div.body-column{
+        width: 100%; margin: 0 auto; display: flex; flex-direction: column;
+    }
+    div.router-column{
+        width: 100%; margin: auto;
+    }
+    div.sidebar-column{
+        width: 100%; margin: auto;
+    }
+  }
